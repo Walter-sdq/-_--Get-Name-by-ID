@@ -287,8 +287,8 @@
 
         const inputCodeField = document.getElementById("inputCode");
         const personNameElement = document.getElementById("attendantName");
-        // const check = document.getElementById('present')
-        // const list = document.getElementById('list')
+        const check = document.getElementById('present')
+        const list = document.getElementById('list')
 
         inputCodeField.addEventListener("input", function () {
             const inputCode = inputCodeField.value;
@@ -296,10 +296,11 @@
             personNameElement.textContent = attendantName;
         });
 
-        // check.addEventListener('click', () => {
-        //     list.innerHTML += `<li>${personNameElement.innerText}</li>`
-        //     console.log(`${personNameElement} is present`);
-        // })
+        check.addEventListener('click', () => {
+            list.innerHTML += `<li>${personNameElement.innerText}</li>`
+            console.log(`${personNameElement} is present`);
+        })
+
     </script>
 </body>
 
