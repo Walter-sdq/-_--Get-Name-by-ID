@@ -1,0 +1,73 @@
+.container {
+    margin: 100px;
+}
+.list_info {
+    font-size: 25px;
+    color: #712c30;
+    font-weight: 450;
+}
+#list{
+    margin-top: 2.5rem;
+}
+.container h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'poppins' sans-serif;
+    margin-bottom: 5rem;
+    font-size: 60px
+}
+
+.inputCode {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #712C30;
+    outline: none;
+
+    height: 58px;
+    flex-shrink: 0;
+}
+
+#present {
+    border: 1px solid #712C30;
+    height: 35px;
+    /* width: 3%; */
+    background-color: #712C30;
+    color: white;
+    font-weight: 500;
+    margin-top:30px
+}
+
+p {
+    font-size: 30px
+}
+
+#attendantName {
+    font-weight: 500
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px
+}
+
+.img {
+    width: 200px;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

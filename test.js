@@ -1,3 +1,7 @@
+
+
+
+
 //module
 
 const inputCodeField = document.getElementById("inputCode");
@@ -281,36 +285,15 @@ function getAttendantNameByCode(id) {
 *********
 ////////*/
 
-// ======view=====
+let listData
 
-let listData;
-
-const savedList = JSON.parse(localStorage.getItem('list'));
-if (Array.isArray(savedList)) {
-    listData = savedList;
+const savedList = JSON.parse(localStorage.getItem('list'))
+if (Array.isArray(listData)) {
+    listData = savedList
 } else {
-    listData = [];
+    listData = []
 }
 
-// Function to populate the list from the stored data
-function populateList() {
-    list.innerHTML = ''; // Clear existing list
-    listData.forEach(name => {
-        let namePrint = document.createElement('p');
-        namePrint.innerText = name;
-        list.appendChild(namePrint);
-    });
-}
-
-// Call the function to populate the list initially
-populateList();
-
-// Rest of your code remains the same
-
-
-/*/////////
-*********
-////////*/
 function checkL() {
 
 
