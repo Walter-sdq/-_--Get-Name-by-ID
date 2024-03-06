@@ -265,7 +265,7 @@ const personData = [
 ];
 
 
-// ======view=====
+// ======view=====//
 
 function getAttendantNameByCode(id) {
     const person = personData.find((person) => person.id === id);
@@ -292,9 +292,8 @@ if (Array.isArray(savedList)) {
     listData = [];
 }
 
-// Function to populate the list from the stored data
 function populateList() {
-    list.innerHTML = ''; // Clear existing list
+    list.innerHTML = ''; 
     listData.forEach(name => {
         let namePrint = document.createElement('p');
         namePrint.innerText = name;
@@ -302,10 +301,7 @@ function populateList() {
     });
 }
 
-// Call the function to populate the list initially
 populateList();
-
-// Rest of your code remains the same
 
 
 /*/////////
