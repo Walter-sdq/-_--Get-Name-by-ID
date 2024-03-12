@@ -293,7 +293,7 @@ if (Array.isArray(savedList)) {
 }
 
 function populateList() {
-    list.innerHTML = ''; 
+    list.innerHTML = '';
     listData.forEach(name => {
         let namePrint = document.createElement('p');
         namePrint.innerText = name;
@@ -339,6 +339,12 @@ const addToList = (personName) => {
 check.addEventListener('click', () => {
     addToList(personNameElement.textContent)
     console.log();
+    checkL()
+})
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        addToList(personNameElement.textContent)
+    }
     checkL()
 })
 
