@@ -310,12 +310,12 @@ populateList();
 function checkL() {
 
 
-    console.log(`${personNameElement.textContent} is present `);
-    console.log(`there are ${personData.length} number of persons who registered and ${listData.length} are present`);
+    // console.log(`${personNameElement.textContent} is present `);
+    // console.log(`there are ${personData.length} number of persons who registered and ${listData.length} are present`);
 
 
     save_list()
-    list_info.innerText = `${personData.length} persons registered and ${listData.length} is/are present`
+    list_info.innerText = `${personData.length} persons registered and ${listData.length} present`
 }
 
 
@@ -338,7 +338,7 @@ const addToList = (personName) => {
 
 check.addEventListener('click', () => {
     addToList(personNameElement.textContent)
-    console.log();
+    // console.log();
     checkL()
 })
 document.addEventListener('keydown', (e) => {
@@ -349,7 +349,7 @@ document.addEventListener('keydown', (e) => {
 })
 
 function save_list() {
-    console.log(listData);
+    // console.log(listData);
     localStorage.setItem('list', JSON.stringify(listData))
     return
 }

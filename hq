@@ -1,0 +1,59 @@
+[33mcommit 55f29645962dd99c39ad21b24462a7407ae4a3a2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Walter <akhigbeabdulwahab354@gmail.comm>
+Date:   Tue Mar 12 02:05:06 2024 +0100
+
+    added a btn event to add to list on press(Enter)
+
+[33mcommit f9829086f624bdfd46ed210d592648967cc429ee[m
+Author: Walter <akhigbeabdulwahab354@gmail.comm>
+Date:   Wed Mar 6 03:22:14 2024 +0100
+
+    clean up
+
+[33mcommit a1f6d5d84ec7b0e86534dcd513ddb6fff864f467[m
+Author: Walter <akhigbeabdulwahab354@gmail.comm>
+Date:   Thu Feb 22 17:33:04 2024 +0100
+
+    all function done
+
+[33mcommit a78a36126a958df6229c857c15843c1e6ce915be[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Walter <akhigbeabdulwahab354@gmail.com>
+Date:   Thu Dec 7 22:05:08 2023 +0100
+
+    Update README.md
+
+[33mcommit 6975556bcffd4e64ef250e8ccc669b0719da4f89[m
+Author: Walter <akhigbeabdulwahab354@gmail.com>
+Date:   Thu Dec 7 22:04:24 2023 +0100
+
+    Update README.md
+
+[33mcommit 13cd5ca48c2914982b9d4945a14a7df954639525[m
+Author: Walter <akhigbeabdulwahab354@gmail.com>
+Date:   Thu Dec 7 22:03:32 2023 +0100
+
+    Update README.md
+
+[33mcommit 074964dfff329d3fb25053848ca7523221a257ab[m
+Author: Walter <akhigbeabdulwahab354@gmail.com>
+Date:   Mon Dec 4 23:46:27 2023 +0100
+
+    Create README.md
+
+[33mcommit 2a10f010f8c0e73bedd127450076dbe5df7fdbc6[m
+Author: Walter <akhigbeabdulwahab354@gmail.com>
+Date:   Sat Dec 2 21:05:20 2023 +0100
+
+    made the attendants name list on click of the 'present ' button next task try to save the list
+
+[33mcommit 987b82fd3198c7bca8a1e4a1c7d2da371f66ff20[m
+Author: Walter <akhigbeabdulwahab354@gmail.com>
+Date:   Sat Dec 2 20:52:54 2023 +0100
+
+    update
+
+[33mcommit 3a494740534f071412dcca07e64ef3af5d745f94[m
+Author: Walter <akhigbeabdulwahab354@gmail.com>
+Date:   Sat Dec 2 20:51:48 2023 +0100
+
+    init
